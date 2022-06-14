@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: devops-argocd-test
+  name: devops-argocd-test
+  namespace: default
+spec:
+  ports:
+    - name: tcp-8080
+      port: 8080
+      protocol: TCP
+      targetPort: 8080
+  selector:
+    app: devops-argocd-test
+    version: v1
+  sessionAffinity: None
+  type: NodePort
