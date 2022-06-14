@@ -8,3 +8,5 @@ resources:
 images:
 - name: 364950776/flask-demo
   newTag: 4e3c18c73f15a59d7ad924682949ca3143025ab7
+- name: wuyadong1990/guestbook-demo
+  newTag: 664783d8bfdf01d13cfb5b101a5ce1b6ba629cc7
