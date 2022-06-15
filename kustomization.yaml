@@ -5,6 +5,8 @@ resources:
 - deployment.yaml
 - service.yaml
 - secret.yaml
+- post-sync.yaml
+- pre-sync.yaml
 images:
 - name: wuyadong1990/guestbook-demo
   newTag: 157ebaf0527c4f77cbc65dcbd60fefa75ea44df4
