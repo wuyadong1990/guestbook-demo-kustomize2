@@ -9,4 +9,4 @@ resources:
 - pre-sync.yaml
 images:
 - name: wuyadong1990/guestbook-demo
-  newTag: 157ebaf0527c4f77cbc65dcbd60fefa75ea44df4
+  newTag: ed050bab13dce4863d00258db731a305ce735086
