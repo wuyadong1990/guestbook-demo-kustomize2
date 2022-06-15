@@ -7,4 +7,4 @@ resources:
 - secret.yaml
 images:
 - name: wuyadong1990/guestbook-demo
-  newTag: fb4228ecfcaf57eab5067dec898388083648e913
+  newTag: 157ebaf0527c4f77cbc65dcbd60fefa75ea44df4
